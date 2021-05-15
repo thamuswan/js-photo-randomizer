@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    padding: 2rem 15rem;
+}
+
+h1 {
+    font-family: blacksword;
+    font-size: 4rem;
+}
+
+input {
+    border: 1px solid #dfdfdf;
+    border-radius: 20px;
+    width: 30%;
+    height: 30px;
+    margin-bottom: 42px;
+    text-align: center;
+    font-size: 0.93rem;
+}
+
+input:focus {
+    outline: none;
+}
+
+.wrapper {
+    width: 870px;
+    margin: 0 auto;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    width: 290px;
+    height: 290px;
+}
+
+@font-face {
+    font-family: blacksword;
+    src: url(Blacksword.otf);
+    font-weight: bold;
+}
